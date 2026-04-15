@@ -2,6 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom"
 
 interface HeaderProps {
     isLoggedIn: boolean;
+    userId: string | null;
     onLogout: () => void;
 }
 
